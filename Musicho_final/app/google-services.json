@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "447311550770",
+    "firebase_url": "https://musicho-1418b.firebaseio.com",
+    "project_id": "musicho-1418b",
+    "storage_bucket": "musicho-1418b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447311550770:android:c61a3036317a6bd9e31f2b",
+        "android_client_info": {
+          "package_name": "Musicho_app.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447311550770-4tc59gvj3ikgf0o07u9n8qr3rorei7aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-7zW77XVBa2CNHBfvlUVV5G1xavkGrH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447311550770-4tc59gvj3ikgf0o07u9n8qr3rorei7aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447311550770:android:cb6783f5efc541f3",
+        "android_client_info": {
+          "package_name": "musichoview.musicho_view"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447311550770-4tc59gvj3ikgf0o07u9n8qr3rorei7aq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-7zW77XVBa2CNHBfvlUVV5G1xavkGrH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447311550770-4tc59gvj3ikgf0o07u9n8qr3rorei7aq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.musicho.musichotest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Musicho"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.musicho.musichotest.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.musicho.musichotest.LoginActivity" />
+        <activity android:name="com.musicho.musichotest.RegisterActivity" />
+        <activity android:name="com.musicho.musichotest.MainActivity" />
+        <activity android:name="com.musicho.musichotest.PostActivity" />
+        <activity android:name="com.musicho.musichotest.ChatActivity" />
+        <activity android:name="com.musicho.musichotest.MessageActivity"/>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name="com.musicho.musichotest.CommentsActivity" />
+        <activity android:name="com.musicho.musichotest.OptionsActivity" />
+        <activity android:name="com.musicho.musichotest.EditProfileActivity" />
+        <activity android:name="com.musicho.musichotest.FollowersActivity" />
+        <activity android:name="com.musicho.musichotest.StoryActivity" />
+        <activity android:name="com.musicho.musichotest.AddStoryActivity"></activity>
+
+        <service android:name=".ChatNotification.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".ChatNotification.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
